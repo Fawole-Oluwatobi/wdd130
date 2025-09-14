@@ -60,3 +60,45 @@ footer {
   padding: 0 1rem;
   color: var(--muted);
 }
+/* Limit main width */
+main {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+/* Aside styling */
+aside {
+  width: 250px;
+  margin: 1rem auto;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #f0f8ff; /* light background */
+  color: #000; /* good contrast */
+  text-align: center;
+}
+
+/* Aside image */
+aside img {
+  width: 200px;
+  height: auto; /* keeps aspect ratio */
+}
+
+/* Ensure profile img in main is separate */
+main img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Paragraphs reset padding */
+p {
+  padding: 0;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 2rem;
+  border-top: 2px solid #ccc;
+  text-align: center;
+  padding-top: 1rem;
+}
